@@ -220,8 +220,8 @@ if __name__ == '__main__':
     if len(sys.argv) != 4:
         print("You must pass in exactly 3 arguments")
         print("Usage:")
-        print("% backup <local-directory-name> <bucket-name::remote-directory-name>")
-        print("% restore <local-directory-name> <bucket-name::remote-directory-name>")
+        print("python abt.py backup <local-directory-name> <bucket-name::remote-directory-name>")
+        print("python abt.py restore <local-directory-name> <bucket-name::remote-directory-name>")
         sys.exit(1)
 
     try:

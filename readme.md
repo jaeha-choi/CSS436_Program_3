@@ -42,6 +42,11 @@ preventing users from downloading files that are altered/modified by malicious u
 - (spec) AWS credentials must be in `~/.aws/credentials`, and should not be provided by the user
 - (spec) Standalone executable overwrite files on the local machine even if the hash matches
 
+## Usage
+1. Backup: `python abt.py backup local-directory-name bucket-name::remote-directory-name`
+2. Restore: `python abt.py restore local-directory-name bucket-name::remote-directory-name`
+
+
 ## Examples
 
 1. Backup `test` directory in `test-remote`
