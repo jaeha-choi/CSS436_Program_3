@@ -40,6 +40,7 @@ preventing users from downloading files that are altered/modified by malicious u
 - (spec) Empty directories are visible on AWS
 - (spec) Only directory paths are passed in as arguments
 - (spec) AWS credentials must be in `~/.aws/credentials`, and should not be provided by the user
+- (spec) Standalone executable overwrite files on the local machine even if the hash matches
 
 ## Examples
 
